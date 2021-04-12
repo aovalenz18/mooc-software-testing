@@ -10,6 +10,12 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(20);
         Assertions.assertEquals(25,result);
     }
+    
+    @Test
+    public void addFiveTo25() {
+    	int result = new GettingStarted().addFive(25);
+    	Assertions.assertEquals(30,result);
+    }
 
 //    UNCOMMENT THE CODE BELOW, AND FILL THE GAPS!
 
